@@ -7,8 +7,6 @@
 const checkForSpam = function (message) {
 
   let lowerMessage = message.toLowerCase();
-  console.log(lowerMessage);
-
   return lowerMessage.includes("spam") || lowerMessage.includes("sale");
 
 };
@@ -22,7 +20,6 @@ const checkForSpam = function (message) {
 
 //   for (let word of arr) {
 //     if (lowerMessage.indexOf(word))  > -1) {
-
 //       return true;
 //     }
 //   } return false;
