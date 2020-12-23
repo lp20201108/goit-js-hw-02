@@ -9,7 +9,7 @@
       
          const amount = word.length * pricePerWord;
 
-      console.log(`Amount to pay: ` + amount);
+      return (`Amount to pay: ` + amount);
       
 }; 
 
